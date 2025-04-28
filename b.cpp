@@ -1,0 +1,2 @@
+#include<bits/stdc++.h>
+using namespace std;int main(){string s,t;getline(cin,s);for(char c:s)if(isalpha(c))t+=tolower(c);cout<<(t==string(t.rbegin(),t.rend())?"Y\n":"N\n");int n,x;multiset<int>v;for(cin>>n;n--;){cin>>x;v.insert(x);}for(int x:v)cout<
